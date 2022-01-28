@@ -103,7 +103,7 @@ prompt_git() {
       color=yellow
       ref="${ref} $PLUSMINUS"
     else
-      color=green
+      color=magenta
       ref="${ref} "
     fi
     if [[ "${ref/.../}" == "$ref" ]]; then
@@ -118,7 +118,7 @@ prompt_git() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment green $PRIMARY_FG ' %~ '
+  prompt_segment cyan $PRIMARY_FG ' %~ '
 }
 
 # Status:
