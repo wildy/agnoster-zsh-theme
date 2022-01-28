@@ -3,6 +3,8 @@
 # agnoster's Theme - https://gist.github.com/3712874
 # A Powerline-inspired theme for ZSH
 #
+# Color scheme changed by Wildy
+#
 # # README
 #
 # In order for this theme to render correctly, you will need a
@@ -116,7 +118,7 @@ prompt_git() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment blue $PRIMARY_FG ' %~ '
+  prompt_segment green $PRIMARY_FG ' %~ '
 }
 
 # Status:
